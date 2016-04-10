@@ -12,6 +12,13 @@
 		639C898E1CB9491B00ADB65E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C898C1CB9491B00ADB65E /* Main.storyboard */; };
 		639C89901CB9491B00ADB65E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639C898F1CB9491B00ADB65E /* Assets.xcassets */; };
 		639C89931CB9491B00ADB65E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C89911CB9491B00ADB65E /* LaunchScreen.storyboard */; };
+		639C899E1CB94F2800ADB65E /* basketball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639C899B1CB94F2800ADB65E /* basketball@2x.png */; };
+		639C899F1CB94F2800ADB65E /* soccer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639C899C1CB94F2800ADB65E /* soccer@2x.png */; };
+		639C89A21CB9599100ADB65E /* tennis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639C89A11CB9599100ADB65E /* tennis@2x.png */; };
+		639C89A51CB95B9B00ADB65E /* football@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639C89A31CB95B9B00ADB65E /* football@2x.png */; };
+		639C89A61CB95B9B00ADB65E /* hockey@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639C89A41CB95B9B00ADB65E /* hockey@2x.png */; };
+		639C89AE1CB9824700ADB65E /* CTForumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C89AD1CB9824700ADB65E /* CTForumViewController.swift */; };
+		639C89B11CB9992300ADB65E /* CTSportName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639C89B01CB9992300ADB65E /* CTSportName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		639C898F1CB9491B00ADB65E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639C89921CB9491B00ADB65E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		639C89941CB9491B00ADB65E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639C899B1CB94F2800ADB65E /* basketball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "basketball@2x.png"; sourceTree = "<group>"; };
+		639C899C1CB94F2800ADB65E /* soccer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "soccer@2x.png"; sourceTree = "<group>"; };
+		639C89A11CB9599100ADB65E /* tennis@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tennis@2x.png"; sourceTree = "<group>"; };
+		639C89A31CB95B9B00ADB65E /* football@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "football@2x.png"; sourceTree = "<group>"; };
+		639C89A41CB95B9B00ADB65E /* hockey@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hockey@2x.png"; sourceTree = "<group>"; };
+		639C89AD1CB9824700ADB65E /* CTForumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTForumViewController.swift; sourceTree = "<group>"; };
+		639C89B01CB9992300ADB65E /* CTSportName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTSportName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,37 @@
 		639C89871CB9491B00ADB65E /* Sports */ = {
 			isa = PBXGroup;
 			children = (
+				639C89AF1CB998E100ADB65E /* models */,
+				639C899A1CB94F2800ADB65E /* images */,
 				639C89881CB9491B00ADB65E /* AppDelegate.swift */,
 				639C898A1CB9491B00ADB65E /* ViewController.swift */,
+				639C89AD1CB9824700ADB65E /* CTForumViewController.swift */,
 				639C898C1CB9491B00ADB65E /* Main.storyboard */,
 				639C898F1CB9491B00ADB65E /* Assets.xcassets */,
 				639C89911CB9491B00ADB65E /* LaunchScreen.storyboard */,
 				639C89941CB9491B00ADB65E /* Info.plist */,
 			);
 			path = Sports;
+			sourceTree = "<group>";
+		};
+		639C899A1CB94F2800ADB65E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				639C89A31CB95B9B00ADB65E /* football@2x.png */,
+				639C89A41CB95B9B00ADB65E /* hockey@2x.png */,
+				639C89A11CB9599100ADB65E /* tennis@2x.png */,
+				639C899B1CB94F2800ADB65E /* basketball@2x.png */,
+				639C899C1CB94F2800ADB65E /* soccer@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		639C89AF1CB998E100ADB65E /* models */ = {
+			isa = PBXGroup;
+			children = (
+				639C89B01CB9992300ADB65E /* CTSportName.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +162,11 @@
 				639C89931CB9491B00ADB65E /* LaunchScreen.storyboard in Resources */,
 				639C89901CB9491B00ADB65E /* Assets.xcassets in Resources */,
 				639C898E1CB9491B00ADB65E /* Main.storyboard in Resources */,
+				639C89A21CB9599100ADB65E /* tennis@2x.png in Resources */,
+				639C899E1CB94F2800ADB65E /* basketball@2x.png in Resources */,
+				639C89A61CB95B9B00ADB65E /* hockey@2x.png in Resources */,
+				639C89A51CB95B9B00ADB65E /* football@2x.png in Resources */,
+				639C899F1CB94F2800ADB65E /* soccer@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639C89B11CB9992300ADB65E /* CTSportName.swift in Sources */,
 				639C898B1CB9491B00ADB65E /* ViewController.swift in Sources */,
 				639C89891CB9491B00ADB65E /* AppDelegate.swift in Sources */,
+				639C89AE1CB9824700ADB65E /* CTForumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
